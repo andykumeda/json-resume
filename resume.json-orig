@@ -1,0 +1,165 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Section Heading"
+  },
+  "basics": {
+    "name": "Andy Kumeda",
+    "label": "Information Technology Consultant",
+    "image": "",
+    "email": "andy@kumeda.com",
+    "phone": "(310) 493-1793",
+    "url": "http://andykumeda.com",
+    "summary": "Hands-on technology and cybersecurity expert with over 25 years of extensive experience within cloud and hybrid datacenter environments across various industries, including non-profit health organizations and government military and police departments. Skilled in conducting penetration testing, and due diligence of security systems, operating in a wide range of hardware and software platforms. Served in the capacity of auditors responsible for developing procedures, fulfilling test plans, and documenting findings. Identified network threats and created mitigation processes based on business goals and objectives.",
+    "location": {
+      "address": "Sierra Madre, CA",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://linkedin.com/in/andykumeda"
+      },
+      {
+        "network": "Web",
+        "username": "Website",
+        "url": "https://cv.andykumeda.com"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "California State University, Long Beach",
+      "url": "https://csulb.edu/",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "1988-06-01",
+      "endDate": "1992-01-01"
+    }
+  ],
+  "work": [
+    {
+      "name": "Pied Piper",
+      "location": "location",
+      "description": "Awesome compression company",
+      "position": "title",
+      "url": "http://piedpiper.example.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ],
+      "company": "company name"
+    },
+    {
+      "highlights": [
+        "responsibility2"
+      ],
+      "company": "company 2",
+      "position": "title 2",
+      "location": "location2",
+      "startDate": "1/1/11",
+      "endDate": "2/2/11"
+    },
+    {
+      "highlights": [
+        "responsibility3"
+      ],
+      "company": "company 3",
+      "position": "title3",
+      "location": "location3",
+      "startDate": "3/3/11",
+      "endDate": "4/4/11"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    },
+    {
+      "keywords": [
+        "details3",
+        "details3"
+      ],
+      "name": "skill 3"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    },
+    {
+      "keywords": [
+        "tools 2",
+        "tools 2"
+      ],
+      "name": "project 2",
+      "description": "description 2",
+      "url": "http://example.com"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    },
+    {
+      "title": "award2",
+      "awarder": "awarder2",
+      "summary": "summary2"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

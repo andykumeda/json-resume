@@ -1,14 +1,14 @@
 {{#if resume.awards.length}}
 <div class="container awards-container">
-    {{> title value="Awards" icon="fas fa-award"}}
+    {{> title value="Awards & Credentials" icon="fas fa-award"}}
 
     {{#each resume.awards}}
         <section class="item">
             {{> section-header-awards date=this.date }}
             {{> section-header name=this.title}}
 
-            {{#if awarder}}
-            <h5 class="awarder">{{awarder}}</h5>
+            {{#if summary}}
+            <h5 class="summary">{{summary}}</h5>
             {{/if}}
         </section>
     {{/each}}

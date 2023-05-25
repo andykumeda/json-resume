@@ -1,0 +1,17 @@
+{{#if resume.certificates.length}}
+<div class="container certificates-container">
+    {{> title value="Certificates" icon="fas fa-trophy"}}
+
+    {{#each resume.certificates}}
+        <section class="item">
+            {{> section-header-certificates date=this.date }}
+            {{> section-header name=this.title}}
+
+            {{#if awarder}}
+            
+            <h5 class="awarder">{{awarder}}</h5>
+            {{/if}}
+        </section>
+    {{/each}}
+</div>
+{{/if}}

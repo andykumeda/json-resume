@@ -1,10 +1,10 @@
 {{#if resume.work.length}}
 <div class="container work-container">
-    {{> title value="Experience" icon="fas fa-user-tie"}}
+    {{> title value="Work Experience" icon="fas fa-user-tie"}}
 
     {{#each resume.work}}
         <section class="item">
-            {{> section-header-work name=this.name }}
+            {{> section-header-work company=this.company }}
 
             {{#if position}}
             <h4>{{position}}</h4>

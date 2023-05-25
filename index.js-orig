@@ -101,16 +101,16 @@ const customHelpers = {
     },
 
     formatDate: function (dateString) {
-        const parsedDate = new Date(dateString); 
+        const parsedDate = new Date(dateString);
         // standalone year
         if (/^([1-2][0-9]{3})$/.test(dateString)) {
-            return (parsedDate.getUTCFullYear()).toString();
+            return (parsedDate.getFullYear() + 1).toString();
             // year month YYYY-MM format
         } else if (/^([1-2][0-9]{3}-[0-1]?[0-9])$/.test(dateString)) {
-            return `${String(parsedDate.getUTCMonth() + 1).padStart(
+            return `${String(parsedDate.getMonth() + 1).padStart(
                 2,
                 "0"
-            )}/${parsedDate.getUTCFullYear()}`;
+            )}/${parsedDate.getFullYear()}`;
         } else {
             // return the date in DD/MM/YYYY format
             return parsedDate.toLocaleDateString("en-GB", {
@@ -129,7 +129,10 @@ const customHelpers = {
     formatDateWork: function (dateString) {
         const parsedDate = new Date(dateString);
         if (dateString != "present") {
-            return `${parsedDate.getFullYear()}`;
+            return `${String(parsedDate.getMonth() + 1).padStart(
+                2,
+                "0"
+            )}/${parsedDate.getFullYear()}`;
         } else {
             return "present";
         }

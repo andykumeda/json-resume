@@ -31,12 +31,21 @@
     "dependencies": {
         "@anthonyjdella/customized-resume-cli": "^1.0.6",
         "address-format": "0.0.3",
+        "dset": "^3.1.2",
+        "escape-string-regexp": "^5.0.0",
         "font-awesome": "^4.7.0",
-        "handlebars": "^4.7.6",
-        "handlebars-wax": "^5.0.0",
+        "glob-parent": "^6.0.2",
+        "handlebars-wax": "^6.1.0",
         "image-to-base64": "^2.1.1",
-        "marked": "^0.8.2",
-        "promised-handlebars": "^2.0.1"
+        "json-lint": "^0.1.0",
+        "jsonresume-theme-mocha-responsive": "^1.1.1",
+        "marked": "^4.3.0",
+        "nomnom": "^1.5.3",
+        "npm": "^9.6.5",
+        "promised-handlebars": "^2.0.1",
+        "quaff": "^5.0.0",
+        "require-glob": "^4.1.0",
+        "underscore": "^1.13.6"
     },
     "devDependencies": {
         "jest": "^26.6.3",
