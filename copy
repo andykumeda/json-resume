@@ -1,4 +1,0 @@
-rsync -av public/index.html ~/Documents/jekyll/resume
-rsync -av resume.json ~/Documents/jekyll
-rsync -av resume.pdf ~/Documents/jekyll
-rsync -av resume.tex ~/Documents/jekyll
